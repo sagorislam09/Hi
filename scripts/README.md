@@ -4,4 +4,4 @@
   
 </h3>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Respect+কেউ.কিছু.চেন্জ.করবেন.না.প্লিজ+🥀;Thanks+My+All+Friend+🤙+🥰)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Ar+Yan+CMDS+💔;Ar+Yan+EVENTS+List )](https://git.io/typing-svg)
