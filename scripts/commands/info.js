@@ -37,7 +37,7 @@ var callback = () => api.sendMessage({body:`
 𝐀𝐠𝐞        : 𝟏𝟖+
 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝐒𝐢𝐧𝐠𝐥𝐞
 𝐖𝐨𝐫𝐤      : 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
-𝐆𝐦𝐚𝐢𝐥      :𝐅𝐀𝐇𝐈𝐌-𝐂𝐇𝐎𝐖𝐃𝐔𝐑𝐘𝟏𝟒𝟑@𝐆𝐌𝐀𝐈𝐋.𝐂𝐎𝐌
+𝐆𝐦𝐚𝐢𝐥      : md.fahim.miha07@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩   : wa.me/+8801315086453
 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦    : 𝐅𝐀𝐇𝐈𝐌-𝐂𝐇𝐎𝐖𝐃𝐔𝐑𝐘𝟏𝟒𝟑
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/FahimChowdury006?mibextid=ZbWKwL`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
