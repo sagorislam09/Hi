@@ -19,7 +19,7 @@ var audioss = []
     var { data } = await axios.get(audio ,{  method: 'GET',  responseType: 'arraybuffer' });
                 fs.writeFileSync(__dirname + "/cache/vdtoau.m4a", Buffer.from(data, 'utf-8'));
   audioss.push(fs.createReadStream(__dirname + "/cache/vdtoau.m4a"));
-    var msg = { body : "𝖢𝖮𝖭𝖵𝖤𝖱𝖳 𝖠𝖱𝖸𝖠𝖭 𝖬𝖯3 𝖲𝖮𝖭𝖦 ️🎶\n𝖠𝖱𝖸𝖠𝖭 𝖢𝖧𝖮𝖶𝖣𝖧𝖴𝖱𝖸", attachment: audioss}
+    var msg = { body : "𝙲𝙾𝙽𝚅𝙴𝚁𝚃 𝙵𝙰𝙷𝙸𝙼 𝙼𝙿𝟹 𝚂𝙾𝙽𝙶 ️🎶\n𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘", attachment: audioss}
   api.sendMessage(msg, event.threadID, event.messageID)
 } catch(e){
     console.log(e)
