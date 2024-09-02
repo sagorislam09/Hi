@@ -1,19 +1,19 @@
 <h3 align="center">
   
-  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -ARYAN ROBOT-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -FAHIM ROBOT-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
   
 </h3>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Akhane+akta+file+lagbe🌺;inbox+koren🍒)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Akhane+akta+file+lagbe🌺;inbox+koren+Fahim-Bot🍒)](https://git.io/typing-svg)
 
 
 AMAR MESSENGER ACOUNT SMS DEW
 </h1>
 <p align="center">
-  <a href="https://m.me/Aryan.com.505" target="_blank" rel="CliffVincent"><img src="https://i.imgur.com/pknphli.png" width="100" /></a>
+  <a href="https://m.me/FahimChowdury006" target="_blank" rel="CliffVincent"><img src="https://i.imgur.com/pknphli.png" width="100" /></a>
 
 <img src="http://g-v1.onrender.com/LkXfKhHcn.jpg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> ARYAN BOT - BOT CHAT MESSENGER </h1>
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> FAHIM BOT - BOT CHAT MESSENGER </h1>
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v16.20.0">
