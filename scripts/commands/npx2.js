@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🥵")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "_এত ভালবাসা কই পাও সোনা আমার বস 𝐅𝐀𝐇𝐈𝐌  কে ও একটু ভালোবাসা দাও-🫣😻",
+				body: "উ্ঁফ্ঁ জা্ঁন্ঁ ছা্ঁড়ো্ঁ আ্ঁর্ঁ ক্ঁত্ঁ ব্যা্ঁথা্ঁ লা্ঁগ্ঁছে্ঁ'তো্ঁ__🥹🥵",
 				attachment: fs.createReadStream(__dirname + `/ArYan/Charo na akhon r koto.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
