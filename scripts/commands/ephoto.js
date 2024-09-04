@@ -24,7 +24,7 @@ module.exports = {
     const axios = require("axios");
     const request = require("request");
     const prompt = args.join(" ");
-    if (!args[0]) return nayan.reply(`🔰Use ${global.config.PREFIX}${this.config.name} [no.] [text]\n🔰Example:${global.config.PREFIX}${this.config.name} 1 nayan\n\n🔥Total Edit limit 10...`, threadID, messageID);
+    if (!args[0]) return nayan.reply(`🔰Use ${global.config.PREFIX}${this.config.name} [no.] [text]\n🔰Example:${global.config.PREFIX}${this.config.name} 1 Fahim\n\n🔥Total Edit limit 10...`, threadID, messageID);
     const content = args.join(" ");
     const msg = content.split(" ");
     const number = msg[0].trim();
@@ -92,7 +92,7 @@ module.exports = {
       file.on('finish', () => {
         setTimeout(function () {
           return nayan.reply({
-            body: `❐ THIS IS YOUR NAME EDIT ✌️\n\n___________________________________\n\n❐ This Bot Name : ${global.config.BOTNAME} 🤖\n❐ This Bot Owner : FARHAN_ISLAM\n❐ Your Input Name : ${name}\n\n___________________________________`,
+            body: `❐ THIS IS YOUR NAME EDIT ✌️\n\n___________________________________\n\n❐ This Bot Name : ${global.config.BOTNAME} 🤖\n❐ This Bot Owner : FAHIM_CHOWDHURY\n❐ Your Input Name : ${name}\n\n___________________________________`,
             attachment: fs.createReadStream(__dirname + '/cache/ephoto.jpg')
           }, threadID, messageID)
         }, 5000)
