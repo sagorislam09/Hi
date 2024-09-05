@@ -16,9 +16,9 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("😭")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("😅")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "কি্ঁঁ'গো্ঁ তু্ঁমি্ঁ কা্ঁন্না্ঁ ক্ঁর্ঁতে্ঁছো্ঁ কে্ঁন্ঁ 😰🥺",
+				body: ".আমরা তাদেরকেই ভালোবেসে ফেলি-!!💚🙂___যাদের কাছে আমাদের কোন মূল্য নেই-!!🖤💔",
 				attachment: fs.createReadStream(__dirname + `/ArYan/kanna.m4a`)
 			}
 			api.sendMessage( msg, threadID, messageID);
