@@ -3,7 +3,7 @@ module.exports.config = {
   name: "attitude",
   version: "1.0.0",
   permission: 0,
-  credits: "ALVI",
+  credits: "Fahim",
   description: "Random attitude video",
   premium: false,
   prefix: true, 
