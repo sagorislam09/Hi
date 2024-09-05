@@ -4,7 +4,7 @@ module.exports.config = {
     permssion: 0,
     premium: false,
     prefix: true,
-    credits: "ALVI",
+    credits: "Fahim",
     description: "mention partner",
     category: "Love",
     usages: `Please tag 1 person\n\nHow to use?\n${global.config.PREFIX}crush <@tag>\n\nExample:\n${global.config.PREFIX}crush @name\n`,
@@ -73,7 +73,7 @@ module.exports.run = async function ({ event, api, args }) {
     else {
       let tag = event.mentions[mention].replace("@", "");
         var one = senderID, two = mention;
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n         𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘       \n _যে ফুলের স্পর্শে ক্ষত মুছে যায় সেই ফুল তুমি..!🌻🦋\n╰──────•◈•───────╯",
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n     𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘       \n _যে ফুলের স্পর্শে ক্ষত মুছে যায় সেই ফুল তুমি..!🌻🦋\n╰──────•◈•───────╯",
             mentions: [{
           tag: tag,
           id: mention
