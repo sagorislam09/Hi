@@ -17,7 +17,7 @@ module.exports.config = {
 
 module.exports.languages = {
  "en": {
-    "moduleInfo": "╭──────•◈•──────╮\n |        🅰🅁🅨Ⓐ🄽 🄱😘🅃\n |●𝗡𝗮𝗺𝗲: •—» %1 «—•\n |●𝗨𝘀𝗮𝗴𝗲: %3\n |●𝗗𝗲𝘀𝗰𝗿𝗶p𝘁𝗶𝗼𝗻: %2\n |●𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: %4\n |●𝗪𝗮𝗶𝘁𝗶𝗻𝗴 𝘁𝗶𝗺𝗲: %5 seconds(s)\n |●𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻: %6\n |𝗠𝗼𝗱𝘂𝗹𝗲 𝗰𝗼𝗱𝗲 𝗯𝘆\n |•—» 𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 «—•\n╰──────•◈•──────╯",
+    "moduleInfo": "╭──────•◈•──────╮\n |        𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘\n |●𝗡𝗮𝗺𝗲: •—» %1 «—•\n |●𝗨𝘀𝗮𝗴𝗲: %3\n |●𝗗𝗲𝘀𝗰𝗿𝗶p𝘁𝗶𝗼𝗻: %2\n |●𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: %4\n |●𝗪𝗮𝗶𝘁𝗶𝗻𝗴 𝘁𝗶𝗺𝗲: %5 seconds(s)\n |●𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻: %6\n |𝗠𝗼𝗱𝘂𝗹𝗲 𝗰𝗼𝗱𝗲 𝗯𝘆\n |•—» 𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 «—•\n╰──────•◈•──────╯",
     "helpList": '[ There are %1 commands on this bot, Use: "%2help nameCommand" to know how to use! ]',
     "user": "User",
         "adminGroup": "Admin group",
@@ -108,7 +108,7 @@ const first = numberOfOnePage * page - numberOfOnePage;
     const siu = `╭──────•◈•──────╮\n |     𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 \n |   🄲🄾🄼🄼🄰🄽🄳 🄻🄸🅂🅃       \n╰──────•◈•──────╯`;
 const text = `╭──────•◈•──────╮\n│𝖴𝖲𝖤 ${prefix}help [Name?]\n│𝖴𝖲𝖤 ${prefix}help [Page?]\n│𝖱𝖮𝖡𝖮𝖳 𝖠𝖣𝖬𝖨𝖭 : \n│𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘\n│𝖳𝖮𝖳𝖠𝖫 : [${arrayInfo.length}]\n│✳️𝖯𝖠𝖦𝖤✳️ :  [${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}]\n╰──────•◈•──────╯`; 
     var link = [
-"https://i.imgur.com/4i9I0je.jpeg", "https://i.imgur.com/THedSOD.jpeg", "https://i.imgur.com/THedSOD.jpeg", "https://i.imgur.com/74Qw9j6.jpeg",
+"https://i.imgur.com/4i9I0je.jpeg", "https://i.imgur.com/4i9I0je.jpeg", "https://i.imgur.com/4i9I0je.jpeg", "https://i.imgur.com/4i9I0je.jpeg",
 "https://i.imgur.com/4i9I0je.jpeg",
 "https://i.imgur.com/4i9I0je.jpeg",
 "https://i.imgur.com/4i9I0je.jpeg",
@@ -119,7 +119,7 @@ const text = `╭──────•◈•──────╮\n│𝖴𝖲�
 const leiamname = getText("moduleInfo", command.config.name, command.config.description, `${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits);
 
   var link = [
-"https://i.imgur.com/THedSOD.jpeg",
+"https://i.imgur.com/4i9I0je.jpeg",
   ]
     var callback = () => api.sendMessage({ body: leiamname, attachment: fs.createReadStream(__dirname + "/cache/loidbutter.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/loidbutter.jpeg"), event.messageID);
 return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/loidbutter.jpeg")).on("close", () => callback());
