@@ -18,11 +18,11 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🤣")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "আ্ঁরেৃঁ আ্ঁস্তেৃঁ হা্ঁসৃঁতে্ঁ হা্ঁসৃঁতে্ঁ দা্ঁতৃঁ খু্ঁলেৃঁ যা্ঁবেৃঁ ত্ঁখৃঁন্ঁ মাৃঁংস্ঁ খেৃঁতে্ঁ পাৃঁর্ঁবেৃঁ না্ঁ 🦷👈👉🍗",
+				body: "পা্ঁগ্ঁল্ঁ না্ঁকি্ঁ এ্ঁভা্ঁবে্ঁ কে্ঁউ্ঁ হা্ঁসে্ঁ 😧🙊",
 				attachment: fs.createReadStream(__dirname + `/ArYan/ababe kew hase.m4a`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🥹", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😵", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
