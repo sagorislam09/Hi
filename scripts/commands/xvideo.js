@@ -22,7 +22,7 @@ module.exports.run = async function({ api, event }) {
   let count = res.data.count;
   let callback = function () {
           api.sendMessage({
-            body: `♻️--『  𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 』--♻️`,
+            body: `♻️--『  ❊ 𝗔𝗥𝗬𝗔𝗡 𝗖𝗛𝗢𝗪𝗗𝗛𝗨𝗥𝗬 ❊ 』--♻️`,
             attachment: fs.createReadStream(__dirname + `/data/kanna.${ext}`)
           }, event.threadID, () => fs.unlinkSync(__dirname + `/data/kanna.${ext}`), event.messageID);
         };
