@@ -3,7 +3,7 @@ module.exports = {
   name: "ai",
   version: "1.0.0",
   permission: 0,
-  credits: "Nayan",
+  credits: "ArYan",
   description: "",
   prefix: 'awto', 
   category: "user", 
@@ -47,7 +47,7 @@ gpt({
   const answer = data.gpt
     var msg = [];
     {
-        msg += `${answer}`
+        msg += `🍒  𝗔𝗥𝗬𝗔𝗡 𝗔𝗜  🍒\n❍━━━━━━━━━━━━━❍\n ${answer}\n❍━━━━━━━━━━━━━❍`
     }
      NAYAN.react("✅")
     return NAYAN.reply(msg)
