@@ -20,7 +20,7 @@ module.exports = {
     // Simplified condition using Array.some()
     if (["by","bye","By","Bye","good bye","Allah hafiz","allah hafiz",].some(keyword => lowerCaseBody.startsWith(keyword))) {
       const msg = {
-        body: "আবার কথা হবে 🥰.\n\n~ যেকোনো তথ্যের জন্য আমার id তে নক দেন 𝖥𝖡 𝖫𝖨𝖭𝖪 :https://www.facebook.com/profile.php?id=100029901980367",
+        body: "আবার কথা হবে 🥰.\n\n~ যেকোনো তথ্যের জন্য আমার id তে নক দেন : Facebook https://www.facebook.com/xxxx.com.404",
         attachment: fs.createReadStream(__dirname + `/cache/farhan1.mp4`)
       };
 
