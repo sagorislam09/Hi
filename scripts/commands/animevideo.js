@@ -2,7 +2,7 @@ module.exports.config = {
   name: "anime",
   version: "1.0.0",
   permission: 0,
-  credits: "Fahim",
+  credits: "ArYan",
   description: "Random sad video",
   prefix: true,
   category: "Media",
@@ -20,7 +20,7 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
   const request = global.nodemodule["request"];
   const fs = global.nodemodule["fs-extra"];
 
-  var hi = ["𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘"];
+  var hi = ["◉‿◉ 𝙰𝚁𝚈𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚅𝙸𝙳𝙴 ◉‿◉"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
     "https://drive.google.com/uc?id=18-qJqj0yJOe1DnqtKCtt2BA6aL4Lsu1V",
