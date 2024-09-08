@@ -4,9 +4,9 @@ module.exports.config = {
     permssion: 0,
     premium: false,
     prefix: true,
-    credits: "Fahim",
+    credits: "𝙰𝚁𝚈𝙰𝙽",
     description: "mention partner",
-    category: "Love",
+    category: "𝙰𝚁𝚈𝙰𝙽 𝙻𝙾𝚅𝙴 𝙿𝙽𝙶.𝙲𝙰𝚃𝙴𝙶𝙾𝚁𝚈 𝙰𝙽𝙳 𝙿𝙸𝙲𝙲𝙶𝙰𝚁",
     usages: `Please tag 1 person\n\nHow to use?\n${global.config.PREFIX}crush <@tag>\n\nExample:\n${global.config.PREFIX}crush @name\n`,
     cooldowns: 5,
     dependencies: {
