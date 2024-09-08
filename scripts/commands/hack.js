@@ -4,7 +4,7 @@ module.exports.config = {
   permssion: 0,
   premium: false,
   prefix: true,
-  credits: "FAHIM",
+  credits: "ArYan",
   description: "hack",
   category: "hack",
   usages: "@mention",
@@ -98,7 +98,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   const imageBuffer = canvas.toBuffer();
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
-  return api.sendMessage({ body: `╭──────•◈•──────╮\n        ꜰᴀʜɪᴍ ʙᴏᴛ         \nতোমার ফেসবুক আইডি'র হোগা মারা শেষ-🥵\nপাসওয়ার্ড দিয়ে দিলাম বস 𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 কাছে-🥱🏃‍♂️🌻\n╰──────•◈•──────╯`, attachment: fs.createReadStream(pathImg) },
+  return api.sendMessage({ body: `তোমার ফেসবুক আইডি'র হোগা মারা শেষ-🥵\nপাসওয়ার্ড দিয়ে দিলাম বস আরিয়ান কাছে-🥱🏃‍♂️🌻\n╰──────•◈•──────╯`, attachment: fs.createReadStream(pathImg) },
       event.threadID,
       () => fs.unlinkSync(pathImg),
       event.messageID);
