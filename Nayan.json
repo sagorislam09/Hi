@@ -1,23 +1,29 @@
 {
   "author": "Nayan",
   "autoRestart": true,
+  "accpetPending": false,
   "developermode": false,
   "language": "en",
-  "notification": true,
+  "notification": false,
   "approval": false,
-  "BOTNAME": "☞︎︎︎✍︎ 𝙰 𝚁 𝚈 𝙰 𝙽 ✿︎𝙱☺︎︎𝚃 ♕︎",
-  "PREFIX": "-",
+  "saveState": true,
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "ArYan-bot",
+  "PREFIX": "!",
   "OPERATOR": [
-    "61565025325331"
+    "61566369721724",
+    ""
   ],
   "ADMINBOT": [
-    "61565025325331",
-    "61564523816700"
+    "61566369721724",
+    ""
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
   "note": "make sure that the bot name you entered is all lowercase",
-  "notice": " dont cng auther name and owner uid. otherwise bot not working"
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
 }
